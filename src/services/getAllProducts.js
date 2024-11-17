@@ -1,68 +1,75 @@
 export default function getAllProducts() {
     return [
       {
-        id: 'NAF-1-07-FMEN-001',
-        slug: 'nike-air-force-1-07-men',
-        name: "Nike Air Force 1 '07",
-        category: 'Men\'s Shoe',
+        id: 'Yonex-RaketY-01',
+        slug: 'raket-badminton-yonex-nanoflare-1000z -yonex',
+        name: "Raket Badminton Yonex Nanoflare 1000Z",
+        category: 'Raket Yonex',
+        categorySlug: 'raket-yonex',
         price: 1_550_000,
         stock: 100,
         imageUrl: '/assets/images/Yonex 0.1.png',
-        description: `The radiance lives on in the Nike Air Force 1 '07, the b-ball icon that puts a fresh spin on what you know best: crisp leather, bold colours and the perfect amount of flash to make you shine.`
+        description: `Rekomendasi raket Yonex terbaik yang pertama adalah Yonex Nanoflare 1000Z. Raket ini memiliki frame tipis dengan material yang terbuat dari HM Graphite,volume cut resin,dan tungsten.`
       },
       {
-        id: 'NAF-1-07-FMEN-LV8-002',
-        slug: 'nike-air-force-1-07-lv8-men',
-        name: "Nike Air Force 1 '07 LV8",
-        category: 'Men\'s Shoe',
+        id: 'Yonex-RaketY-LV8-02',
+        slug: 'raket-badminton-yonex-gr-303 -yonex',
+        name: "Raket Badminton Yonex GR 303",
+        category: 'Raket Yonex',
+        categorySlug: 'raket-yonex',
         price: 1_000_000,
         stock: 5,
         imageUrl: `/assets/images/Yonex 0.2.png`,
-        description: `Comfortable, durable and timeless—it's number 1 for a reason. The classic '80s construction pairs with bold details for style that tracks whether you're on court or on the go.`
+        description: `Yonex GR 303 merupakan raket badminton dengan desain dan warna yang terlihat bagus dan mewah dengan perpaduan merah dan putih. Raket ini memiliki frame yang terbuat dari aluminium antikarat yang cocok dipakai oleh pemula.`
       },
       {
-        id: 'NAF-1-07-FWOMEN-003',
-        slug: 'nike-air-force-1-07-women',
-        name: "Nike Air Force 1 '07",
-        category: 'Women\'s Shoe',
-        price: 1_909_000,
-        stock: 0,
+        id: 'Lining-RaketL-03',
+        slug: 'raket-badminton-li-ning-blade-x-700-lining',
+        name: "Raket Badminton Li Ning Blade X 700",
+        category: 'Raket Li Ning',
+        categorySlug: 'raket-lining',
+        price: 9_000_00,
+        stock: 4,
         imageUrl: `/assets/images/Li Ning Blade X 700.png`,
-        description: `Comfortable, durable and timeless—it's number 1 for a reason. The classic '80s construction pairs a warm suede upper with neutral accents for style that tracks whether you're on court or on the go.`
+        description: `Bagi para pemain badminton pemula, tetapi kerap ikut serta dalam kompetisi, raket Li-Ning Wind Lite 900 AYPQ084 bisa jadi salah satu pilihan terbaik.`
       },
 
       {
-        id: 'NAF-1-07-FWOMEN-003',
-        slug: 'nike-air-force-1-07-women',
-        name: "Nike Air Force 1 '07",
-        category: 'Women\'s Shoe',
-        price: 1_909_000,
+        id: 'Lining-RaketL-04',
+        slug: 'raket-badminton-li-ning-xp-800-ginting-signature-series-aypq244',
+        name: "Raket Badminton Li ning XP 800 Ginting Signature Series AYPQ244",
+        category: 'Raket Li Ning',
+        categorySlug: 'raket-lining',
+        price: 9_500_00,
         stock: 0,
-        imageUrl: `/assets/images/Hundred Cult 77 Superlite.png`,
-        description: `Comfortable, durable and timeless—it's number 1 for a reason. The classic '80s construction pairs a warm suede upper with neutral accents for style that tracks whether you're on court or on the go.`
+        imageUrl: `/assets/images/Lining-XP-800-Ginting-Signature.png`,
+        description: `Rekomendasi raket Li-Ning dengan kualitas terbaik dan harga terjangkau bisa didapatkan pada series XP 800 Ginting Signature AYPQ244.`
       },
 
       {
-        id: 'NAF-1-07-FWOMEN-003',
-        slug: 'nike-air-force-1-07-women',
-        name: "Nike Air Force 1 '07",
-        category: 'Women\'s Shoe',
-        price: 1_909_000,
-        stock: 0,
+        id: 'Yonex-CockY-05',
+        slug: 'cock-yonex',
+        name: "ShuttleCock Yonex",
+        category: 'ShuttleCock Yonex',
+        categorySlug: 'shuttlecock-yonex',
+        price: 1_200_00,
+        stock: 3,
         imageUrl: `/assets/images/Cock Yonex.png`,
-        description: `Comfortable, durable and timeless—it's number 1 for a reason. The classic '80s construction pairs a warm suede upper with neutral accents for style that tracks whether you're on court or on the go.`
+        description: `Cock Yonex terbuat dari bulu dan gabus berkualitas tinggi. Cock ini dirancang dan diproduksi untuk stabilitas yang baik dalam jarak jauh dan cocok untuk berbagai kondisi permainan.`
       },
 
       {
-        id: 'NAF-1-07-FWOMEN-003',
-        slug: 'nike-air-force-1-07-women',
-        name: "Nike Air Force 1 '07",
-        category: 'Women\'s Shoe',
-        price: 1_909_000,
+        id: 'Lining-CockL-06',
+        slug: 'cock-lining',
+        name: "ShuttleCock Li Ning",
+        category: 'ShuttleCock Li Ning',
+        categorySlug: 'shuttlecock-lining',
+        price: 1_000_00,
         stock: 0,
         imageUrl: `/assets/images/Cock Lining.png`,
-        description: `Comfortable, durable and timeless—it's number 1 for a reason. The classic '80s construction pairs a warm suede upper with neutral accents for style that tracks whether you're on court or on the go.`
+        description: `Cock badminton (shuttlecock badminton) Li-Ning Bulu asli shuttlecock yang sangat awet dan tahan lama.`
       },
+      
   
     ]
   }

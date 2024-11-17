@@ -1,13 +1,23 @@
 const getAllProductCategories = ()  => {
     return [   {
-      id: 'FMEN',
-      slug: 'men-shoes',
-      name: `Men's Shoes`
+      id: 'RaketY',
+      slug: 'yonex',
+      name: `Yonex`
     },
     {
-      id: 'FWMEN',
-      slug: 'women-shoes',
-      name: `Women's Shoes`
+      id: 'RaketL',
+      slug: 'lining',
+      name: `Lining`
+    },
+    {
+      id: 'CockY',
+      slug: 'cock',
+      name: `Cock`
+    },
+    {
+      id: 'CockL',
+      slug: 'cock',
+      name: `Cock`
     },
     ]
   }
